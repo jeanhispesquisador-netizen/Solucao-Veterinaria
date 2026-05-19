@@ -153,19 +153,22 @@ export default function Home() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-emerald-950/85 text-white backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
           <a href="#inicio" className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-400 font-black text-emerald-950 shadow-lg">
-              SV
-            </div>
-            <div>
-              <p className="text-base font-black leading-none">
-                Solução Veterinária
-              </p>
-              <p className="mt-1 text-xs text-stone-300">
-                Consultoria Veterinária LTDA
-              </p>
-            </div>
-          </a>
+  <img
+    src="/images/logo.jpeg"
+    alt="Logo Solução Veterinária"
+    className="h-14 w-auto object-contain"
+  />
 
+  <div>
+    <p className="text-base font-black leading-none">
+      Solução Veterinária
+    </p>
+
+    <p className="mt-1 text-xs text-stone-300">
+      Consultoria Veterinária LTDA
+    </p>
+  </div>
+</a>
           <nav className="hidden items-center gap-7 text-sm font-semibold text-stone-200 md:flex">
             <a href="#sobre" className="hover:text-amber-300">
               Sobre
