@@ -152,7 +152,7 @@ export default function Home() {
     <main className="min-h-screen bg-stone-50 text-stone-900">
       <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-emerald-950/85 text-white backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
-          <a href="#inicio" className="flex items-center gap-3">
+    <a href="#inicio" className="flex items-center gap-3">
   <img
     src="/images/logo.jpeg"
     alt="Logo Solução Veterinária"
