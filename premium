@@ -1,0 +1,61 @@
+# Solução Veterinária Premium
+
+Site institucional em Next.js + Tailwind para Solução Veterinária LTDA.
+
+## Como publicar
+
+1. Extraia este ZIP.
+2. Envie todos os arquivos para o repositório GitHub.
+3. A Vercel atualizará automaticamente o site.
+
+## Contatos configurados
+
+- WhatsApp: (34) 9 9809-6163
+- E-mail: tamires.manejo@gmail.com
+- Responsável Técnica: Tamires Soares de Assis
+- CRMV-MG: 14229
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./app/**/*.{js,ts,jsx,tsx,mdx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Arial", "Helvetica", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+};
+
+{
+  "name": "solucao-veterinaria-premium",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4"
+  }
+}
+
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
